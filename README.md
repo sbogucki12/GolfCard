@@ -110,9 +110,9 @@ Email: sbogucki@mail.usf.edu
 
 
 
-**Go Birds**
+**Go Sixers**
 
-![Imgur](https://i.imgur.com/O0Hxg8b.jpg)
+![Imgur](https://i.imgur.com/6Fy10uw.jpg)
 
 
 

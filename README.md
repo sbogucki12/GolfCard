@@ -19,7 +19,7 @@ I really like the technology stack that we use at work.  So, I wanted to build s
 + Redux
 + TypeScript
 
-This app, **GolfCard**, won't be quite so ambitious.  It's technology stack will be: 
+This app, **GolfCard**, won't be quite so ambitious.  Its technology stack will be: 
 
 + C#
 + SQL Server Express

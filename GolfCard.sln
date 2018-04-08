@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GolfCard", "GolfCard\GolfCard.csproj", "{C3E35AF4-6FC8-42D3-B347-01FCB64EDA7F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3E35AF4-6FC8-42D3-B347-01FCB64EDA7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3E35AF4-6FC8-42D3-B347-01FCB64EDA7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3E35AF4-6FC8-42D3-B347-01FCB64EDA7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3E35AF4-6FC8-42D3-B347-01FCB64EDA7F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3F353E2F-12BE-4AB0-9CC8-E6E86D3DBE1C}
+	EndGlobalSection
+EndGlobal

@@ -38,7 +38,11 @@ I *REALLY* enjoy using TypeScript with React!!!
 
 [ ] - Exception Handling in the Web APi Controller 
 
-[ ] - Scaffold out React/Redux app using Create React App with TypeScript 
+[ X ] - Scaffold out React/Redux app using Create React App with TypeScript 
+
+---> Though, I didn't use CRA, I used the .NET templates. 
+
+**LESSON LEARNED**:  *The .NET React and Redux templates (which you can access in Visual Studio when you are creating a new project) are super buggy.  They have some good stuff, such as the boilerplate for your app's stores and reducers, but their implementation (the "Counter" and "FetchData" components and all their associated utilities) are garbage, and I spent a lot of time removing all of their specific code to leave behind the boilerplate for the reducers, stores, etc and eliminate all the bugs.*     
 
 
 
@@ -50,6 +54,10 @@ I *REALLY* enjoy using TypeScript with React!!!
 + Created Web API
 + Created Controllers for Starting a Golf Round, Adding Hole Score, Getting a Golf Round
 + Created SQL Server Express Database
+
+**Day Two (April 8, 2018)**
+
++ Scaffolded out the React/Redux app
 
 
 ## Credit

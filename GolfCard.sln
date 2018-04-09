@@ -5,8 +5,6 @@ VisualStudioVersion = 15.0.27130.2020
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GolfCard", "GolfCard\GolfCard.csproj", "{C3E35AF4-6FC8-42D3-B347-01FCB64EDA7F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientApp", "ClientApp\ClientApp.csproj", "{D6A540FF-97FB-4CE0-8CC9-476B5434A76D}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{C3E35AF4-6FC8-42D3-B347-01FCB64EDA7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3E35AF4-6FC8-42D3-B347-01FCB64EDA7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3E35AF4-6FC8-42D3-B347-01FCB64EDA7F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D6A540FF-97FB-4CE0-8CC9-476B5434A76D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D6A540FF-97FB-4CE0-8CC9-476B5434A76D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D6A540FF-97FB-4CE0-8CC9-476B5434A76D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D6A540FF-97FB-4CE0-8CC9-476B5434A76D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

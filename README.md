@@ -42,7 +42,9 @@ I *REALLY* enjoy using TypeScript with React!!!
 
 ---> Though, I didn't use CRA, I used the .NET templates. 
 
-**LESSON LEARNED**:  *The .NET React and Redux templates (which you can access in Visual Studio when you are creating a new project) are super buggy.  They have some good stuff, such as the boilerplate for your app's stores and reducers, but their implementation (the "Counter" and "FetchData" components and all their associated utilities) are garbage, and I spent a lot of time removing all of their specific code to leave behind the boilerplate for the reducers, stores, etc and eliminate all the bugs.*     
+**LESSON LEARNED**:  *The .NET React and Redux templates (which you can access in Visual Studio when you are creating a new project) are super buggy.  They have some good stuff, such as the boilerplate for your app's stores and reducers, but their implementation (the "Counter" and "FetchData" components and all their associated utilities) are garbage, and I spent a lot of time removing all of their specific code to leave behind the boilerplate for the reducers, stores, etc and eliminate all the bugs.*  
+
+**LESSON LEARNED POST SCRIPT**: *The .NET tutorials were too crazy.  I ended up getting rid of them.  I scaffolded out the React app with Create-React-App.  Though the TypeScript linter is super stringent, I am now making it work.  It took all weekend.  :(*    
 
 
 
@@ -58,6 +60,8 @@ I *REALLY* enjoy using TypeScript with React!!!
 **Day Two (April 8, 2018)**
 
 + Scaffolded out the React/Redux app
++ Deleted the React/Redux app
+* Reinitiated the React/Redux app with Create React App. Sucess! 
 
 
 ## Credit
@@ -78,6 +82,14 @@ Email: sbogucki@mail.usf.edu
 
 
 ## Screenshots
+
++ Day Two (April 8, 2018):
+
+*React with TypeScript is working!:*
+
+![Imgur](https://i.imgur.com/xWxuZnV.jpg)
+
+
 
 + Day One (April 7, 2018):
 

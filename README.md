@@ -87,7 +87,7 @@ Email: sbogucki@mail.usf.edu
 
 **NOW** *We're cooking, lol:*
 
-![RecordIt]http://g.recordit.co/4HSA940Y6e.gif
+![RecordIt](http://g.recordit.co/4HSA940Y6e.gif)
 
 
 *React with TypeScript is working!:*

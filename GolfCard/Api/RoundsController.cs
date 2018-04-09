@@ -6,6 +6,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.Web.Http.Cors;
 
 namespace GolfCard.Api
 {
@@ -21,6 +22,7 @@ namespace GolfCard.Api
         // GET Current Golf Round
         [HttpGet]
         [Route("api/rounds/{roundName}")]
+        [EnableCors(origins: "http://localhost:3000", headers: "*", methods: "*")]
         public GolfRound GetCurrentRound(string roundName)
         {
             GolfRound currentRound = _context.GolfRounds.FirstOrDefault(g => g.RoundName == roundName);

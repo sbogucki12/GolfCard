@@ -38,6 +38,8 @@ I *REALLY* enjoy using TypeScript with React!!!
 
 [ ] - Exception Handling in the Web APi Controller 
 
+[ ] - Use Axios call to refresh React app state
+
 [ X ] - Scaffold out React/Redux app using Create React App with TypeScript 
 
 ---> Though, I didn't use CRA, I used the .NET templates. 
@@ -62,7 +64,8 @@ I *REALLY* enjoy using TypeScript with React!!!
 + Scaffolded out the React/Redux app
 + Deleted the React/Redux app
 * Reinitiated the React/Redux app with Create React App. Sucess! 
-
++ Tested an Axios call from React to Web API (and, thus, to the database): SUCCESS!
+---- Right now, the Axios call is just calling an alert window.  Eventually, the Axios response data will refresh the React app's state. 
 
 ## Credit
 
@@ -84,6 +87,12 @@ Email: sbogucki@mail.usf.edu
 ## Screenshots
 
 + Day Two (April 8, 2018):
+
+**Boom! Front end talking to Controller to Database:**
+
+![RecordIt](http://g.recordit.co/2vp8iJYtF9.gif)
+
+
 
 **NOW** *We're cooking, lol:*
 

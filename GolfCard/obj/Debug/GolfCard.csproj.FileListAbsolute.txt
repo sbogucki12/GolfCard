@@ -54,3 +54,6 @@ D:\sbogu\Documents\Repos\Visual Studio 2017\GolfCardBackEnd\GolfCard\obj\Debug\G
 D:\sbogu\Documents\Repos\Visual Studio 2017\GolfCardBackEnd\GolfCard\obj\Debug\GolfCard.csproj.GenerateResource.Cache
 D:\sbogu\Documents\Repos\Visual Studio 2017\GolfCardBackEnd\GolfCard\obj\Debug\GolfCard.Migrations.AddedRoundNameToModel.resources
 D:\sbogu\Documents\Repos\Visual Studio 2017\GolfCardBackEnd\GolfCard\obj\Debug\GolfCard.Migrations.addedHolesToModel.resources
+D:\sbogu\Documents\Repos\Visual Studio 2017\GolfCardBackEnd\GolfCard\bin\System.Web.Cors.dll
+D:\sbogu\Documents\Repos\Visual Studio 2017\GolfCardBackEnd\GolfCard\bin\System.Web.Http.Cors.dll
+D:\sbogu\Documents\Repos\Visual Studio 2017\GolfCardBackEnd\GolfCard\bin\System.Web.Http.Cors.xml

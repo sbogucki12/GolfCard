@@ -1,4 +1,5 @@
 import * as React from 'react';
+import axios from '../../node_modules/axios';
 
 export interface AppProps { username: string; }
 export interface AppState { courseName: string; }
@@ -12,6 +13,11 @@ export default class Test extends React.Component<AppProps, AppState> {
     }
 
     onChangeCourseName() {
+        axios.get('http://localhost:51434/api/rounds/First%20Game')
+            .then((response) => {
+                alert(response.data);
+            });
+
         if (this.state.courseName === 'CourseName') {
             this.setState({
                 courseName: 'NewCourseName'

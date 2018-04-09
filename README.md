@@ -85,6 +85,11 @@ Email: sbogucki@mail.usf.edu
 
 + Day Two (April 8, 2018):
 
+**NOW** *We're cooking, lol:*
+
+![RecordIt]http://g.recordit.co/4HSA940Y6e.gif
+
+
 *React with TypeScript is working!:*
 
 ![Imgur](https://i.imgur.com/xWxuZnV.jpg)

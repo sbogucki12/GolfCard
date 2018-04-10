@@ -14,19 +14,11 @@ export default class Test extends React.Component<AppProps, AppState> {
 
     onChangeCourseName() {
         axios.get('http://localhost:51434/api/rounds/First%20Game')
-            .then((response) => {
-                alert(response.data);
-            });
-
-        if (this.state.courseName === 'CourseName') {
-            this.setState({
-                courseName: 'NewCourseName'
-            });
-        } else {
-            this.setState({
-                courseName: 'CourseName'
-            });
-        }        
+            .then((response) => {                
+                this.setState({
+                    courseName: response.data.CourseName
+                });
+            });  
     }
 
     render() {

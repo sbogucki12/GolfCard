@@ -52,12 +52,9 @@ I *REALLY* enjoy using TypeScript with React!!!
 
 ## Timeline
 
-**Day One (April 7, 2018)** 
+**Day Three (April 9, 2018)**
 
-+ Created data model
-+ Created Web API
-+ Created Controllers for Starting a Golf Round, Adding Hole Score, Getting a Golf Round
-+ Created SQL Server Express Database
++ The Axios call now retrieves the course name and refreshes the course name in the React app's state. 
 
 **Day Two (April 8, 2018)**
 
@@ -65,7 +62,16 @@ I *REALLY* enjoy using TypeScript with React!!!
 + Deleted the React/Redux app
 * Reinitiated the React/Redux app with Create React App. Sucess! 
 + Tested an Axios call from React to Web API (and, thus, to the database): SUCCESS!
+
 ---- Right now, the Axios call is just calling an alert window.  Eventually, the Axios response data will refresh the React app's state. 
+
+**Day One (April 7, 2018)** 
+
++ Created data model
++ Created Web API
++ Created Controllers for Starting a Golf Round, Adding Hole Score, Getting a Golf Round
++ Created SQL Server Express Database
+
 
 ## Credit
 
@@ -86,9 +92,16 @@ Email: sbogucki@mail.usf.edu
 
 ## Screenshots
 
++ Day Three (April 9. 2018):
+
+*The Axios call to the database is now refreshing the React app's state:*
+
+![RecordIt](http://g.recordit.co/NExbTC8HAB.gif)
+
+
 + Day Two (April 8, 2018):
 
-**Boom! Front end talking to Controller to Database:**
+*Boom! Front end talking to Controller to Database:*
 
 ![RecordIt](http://g.recordit.co/2vp8iJYtF9.gif)
 

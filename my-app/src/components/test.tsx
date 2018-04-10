@@ -1,14 +1,25 @@
 import * as React from 'react';
 import axios from '../../node_modules/axios';
 
-export interface AppProps { username: string; }
-export interface AppState { courseName: string; }
+export interface AppProps {
+    username: string;    
+}
+
+export interface AppState {
+    courseName: string;
+    holeNumber?: number;
+    holePar?: number;
+    holeScore?: number;
+}
 
 export default class Test extends React.Component<AppProps, AppState> {
     constructor(public props: AppProps) {
         super(props);
         this.state = {
-            courseName: 'CourseName'
+            courseName: 'CourseName', 
+            holeNumber: undefined,
+            holePar: undefined,
+            holeScore: undefined
         };
     }
 

@@ -11,6 +11,7 @@ I really like the technology stack that we use at work.  So, I wanted to build s
 
 + C#
 + Redis
++ Azure Cloud Storage
 + SignalR
 + ODATA 
 + .NET Web API
@@ -38,7 +39,7 @@ I *REALLY* enjoy using TypeScript with React!!!
 
 [ ] - Exception Handling in the Web APi Controller 
 
-[ ] - Use Axios call to refresh React app state
+[ X ] - Use Axios call to refresh React app state
 
 [ X ] - Scaffold out React/Redux app using Create React App with TypeScript 
 
@@ -51,6 +52,11 @@ I *REALLY* enjoy using TypeScript with React!!!
 
 
 ## Timeline
+
+**Day Four (April 15, 2018)**
+
++ Created some Redux code for later use (currently commented out)
++ Added to core React functionality (views conditional on whether golf course name is set)
 
 **Day Three (April 9, 2018)**
 

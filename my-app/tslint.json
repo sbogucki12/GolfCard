@@ -9,10 +9,10 @@
         ],
         "ban": false,
         "class-name": true,
-        "comment-format": [
-            true,
-            "check-space"
-        ],
+        //"comment-format": [
+        //    true,
+        //    "check-space"
+        //],
         "curly": true,
         "eofline": false,
         "forin": true,
@@ -29,12 +29,12 @@
             "static-before-instance",
             "variables-before-functions"
         ],
-        "no-any": true,
+        //"no-any": true,
         "no-arg": true,
         "no-bitwise": true,
         "no-console": [
             true,
-            "log",
+            //"log",
             "error",
             "debug",
             "info",

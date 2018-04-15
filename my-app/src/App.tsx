@@ -1,17 +1,16 @@
 import * as React from 'react';
 import './App.css';
 import Test from './components/test';
-import { AppProps } from '../src/components/test';
+import { TestProps } from '../src/components/test';
 
-class App extends React.Component<AppProps, {}> {
-    constructor(public props: AppProps) {
+class App extends React.Component<TestProps, {}> {  
+    constructor(public props: TestProps, public state: {}) {
         super(props)
-    };
-
+    }
     render() {
         return (
             <div className="App">
-                <Test username={'none'} courseName={'none'}/>        
+                <Test courseName={'none'} />        
             </div>
         );
     }

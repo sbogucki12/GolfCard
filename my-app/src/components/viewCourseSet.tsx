@@ -1,15 +1,28 @@
 ﻿import * as React from 'react';
-import { AppState } from './test';
-import { AppProps } from './test';
+import axios from 'axios';
 
-export default class ViewCourseSet extends React.Component<AppProps, AppState> {
-    constructor(public props: AppProps, public state: AppState) {
+export interface CourseSetState {
+    courseName: string;
+}
+
+export default class ViewCourseSet extends React.Component<{}, CourseSetState> {
+    constructor(public props: {}, public state: CourseSetState) {
         super(props);
     }
+
+    onChangeCourseName() {
+        axios.get('http://localhost:51434/api/rounds/First%20Game')
+            .then((response) => {
+                this.setState({
+                    courseName: response.data.CourseName                    
+                });
+            });
+    }
+
     render() {        
         return (
             <div>
-                <p>You are playing {this.props.courseName}.</p>
+                <p>You are playing {this.state.courseName}.</p>
             </div>
         );
     }

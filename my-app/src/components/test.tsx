@@ -1,41 +1,28 @@
 import * as React from 'react';
-import axios from '../../node_modules/axios';
+//import axios from '../../node_modules/axios';
 import ViewCourseSet from './viewCourseSet';
 import ViewCourseNotSet from './viewCourseNotSet';
 
-export interface AppProps {
-    username: string;
+export interface TestProps {
     courseName: string;
 }
 
-export interface AppState {
-    courseName: string;
-    holeNumber?: number;
-    holePar?: number;
-    holeScore?: number;
-    courseSet: boolean;
+export interface TestState {
+     courseSet: boolean;
 }
 
-export default class Test extends React.Component<AppProps, AppState> {
-    constructor(public props: AppProps, public state: AppState) {
+export default class Test extends React.Component<TestProps, TestState> {
+    constructor(public props: TestProps, public state: TestState) {
         super(props);
-        this.state = {
-            courseName: 'CourseName',
-            holeNumber: undefined,
-            holePar: undefined,
-            holeScore: undefined,
+        this.state = {            
             courseSet: false
         };
     }
 
     onChangeCourseName() {
-        axios.get('http://localhost:51434/api/rounds/First%20Game')
-            .then((response) => {
-                this.setState({
-                    courseName: response.data.CourseName,
-                    courseSet: true
-                });
-            });
+        this.setState({
+            courseSet: true
+        });
     }
 
     render() {
@@ -43,7 +30,7 @@ export default class Test extends React.Component<AppProps, AppState> {
         return (
             <div>
                 <button className="btn btn-primary" onClick={() => this.onChangeCourseName()}>Change Course</button>
-                {isCourseSet ? (<ViewCourseSet username={'steve'} courseName={this.state.courseName} />) : (<ViewCourseNotSet username={'steve'} courseName={'none'} />)}
+                {isCourseSet ? (<ViewCourseSet />) : (<ViewCourseNotSet />)}
             </div>
         );
     }  

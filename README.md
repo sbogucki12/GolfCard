@@ -37,6 +37,12 @@ I *REALLY* enjoy using TypeScript with React!!!
 
 ## Upcoming To-Dos 
 
+[ ] - Build core functionality in the React app
+
+[ ] - Integrate Redux to manage state
+
+[ ] - Format and style main view
+
 [ ] - Exception Handling in the Web APi Controller 
 
 [ X ] - Use Axios call to refresh React app state
@@ -49,7 +55,15 @@ I *REALLY* enjoy using TypeScript with React!!!
 
 **LESSON LEARNED POST SCRIPT**: *The .NET tutorials were too crazy.  I ended up getting rid of them.  I scaffolded out the React app with Create-React-App.  Though the TypeScript linter is super stringent, I am now making it work.  It took all weekend.  :(*    
 
+## Notes from the Developer
 
+With a fulltime job and a long commute, I am not able to dedicate as much time to this project as I would wish.  But I'll try to get to it at least every weekend, and hopefully during some weeknights. <br/>
+
+I'm also discovering that I had to moderate some of the TypeScript Linter's settings.  It was so stringent that it made development super cumbersome.  Though, I don't think any of the changes I made to the linter will lessen the integrity of TypeScript's value. <br/>
+
+One issue that I encountered when working with Redux with TypeScript (separate from React) was that TypeScript didn't recognize the getState() call as a user of the createStore function.  So, TypeScript would complain that createStore was being set, but not used.  Which isn't accurate; createStore was being used by getState(), but the createStore() value wasn't being called directly.  Which seems to upset the TypeScript linter.  <br/>
+
+I'm not sure if that same issue will be apparent when using TypeScript with Redux connected to the React app.  But, in any case, I'm not using Redux in **GolfCard** yet so, we'll cross that bridge when we arrive to it! <br/>
 
 ## Timeline
 
@@ -97,6 +111,12 @@ Email: sbogucki@mail.usf.edu
 
 
 ## Screenshots
+
++ Day Four (April 15, 2018):
+
+*Slowly building the core functionality:*
+
+![RecordIt](http://g.recordit.co/aBDVKhw26q.gif)
 
 + Day Three (April 9. 2018):
 

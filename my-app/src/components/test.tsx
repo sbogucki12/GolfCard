@@ -1,49 +1,43 @@
 import * as React from 'react';
-//import axios from '../../node_modules/axios';
+import axios from '../../node_modules/axios';
 import ViewCourseSet from './viewCourseSet';
 import ViewCourseNotSet from './viewCourseNotSet';
-
-export interface TestProps {
-    courseName: string;
-}
 
 export interface TestState {
      courseSet: boolean;
 }
 
-export default class Test extends React.Component<TestProps, TestState> {
-    constructor(public props: TestProps, public state: TestState) {
+export default class Test extends React.Component<{}, TestState> {
+    constructor(public props: {}, public state: TestState) {
         super(props);
         this.state = {            
             courseSet: false
         };
     }
 
-    onChangeCourseName() {
-        this.setState({
-            courseSet: true
-        });
+    onSetCourse() {
+        axios.get('http://localhost:51434/api/rounds/First%20Game')
+            .then(() => {
+                if (this.state.courseSet === false) {
+                    this.setState({
+                        courseSet: true
+                    });
+                } else {
+                    this.setState({
+                        courseSet: false
+                    });
+                }
+                
+            });
     }
 
     render() {
         const isCourseSet = this.state.courseSet;
         return (
             <div>
-                <button className="btn btn-primary" onClick={() => this.onChangeCourseName()}>Change Course</button>
+                <button className="btn btn-primary" onClick={() => this.onSetCourse()}>Change Course</button>
                 {isCourseSet ? (<ViewCourseSet />) : (<ViewCourseNotSet />)}
             </div>
         );
     }  
 }
-//<div>
-//    <p>Hello {this.props.username}</p>
-//    if (this.state.courseName == "Not Set") {
-//        <p>Please enter name of course.</p>
-//    }
-//    else {
-//        <p>You are playing {this.state.courseName}</p>
-//        <p />
-//        <button className="btn btn-primary" onClick={() => this.onChangeCourseName()}>Change Course</button>
-
-//        }
-//</div> 

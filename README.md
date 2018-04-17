@@ -38,6 +38,10 @@ I *REALLY* enjoy using TypeScript with React!!!
 ## Upcoming To-Dos 
 
 [ ] - Build core functionality in the React app
+<br/>
+---- Build out input for hole pars
+<br/>
+---- Build out submit/post for hole pars 
 
 [ ] - Integrate Redux to manage state
 
@@ -66,6 +70,10 @@ One issue that I encountered when working with Redux with TypeScript (separate f
 I'm not sure if that same issue will be apparent when using TypeScript with Redux connected to the React app.  But, in any case, I'm not using Redux in **GolfCard** yet so, we'll cross that bridge when we arrive to it! <br/>
 
 ## Timeline
+
+**Day Five (April 16, 2018)**
+
++ Added some input fields for setting up the par for each hole.  This is *not* hole the final functionality will work.  It was just a test.  I'll return and refactor.  
 
 **Day Four (April 15, 2018)**
 

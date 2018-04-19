@@ -3,6 +3,7 @@ import axios from 'axios';
 
 export interface CourseSetState {
     courseName: string;
+    roundName: string; 
     hole1par?: number;
     hole2par?: number;
     hole3par?: number;
@@ -28,6 +29,7 @@ export default class ViewCourseSet extends React.Component<{}, CourseSetState> {
         super(props);
         this.handleChange = this.handleChange.bind(this);
         this.state = {
+            roundName: 'First Game',
             courseName: '',
             hole1par: undefined,
             hole2par: undefined,
@@ -54,32 +56,38 @@ export default class ViewCourseSet extends React.Component<{}, CourseSetState> {
             .then((response) => {
                 this.setState({
                     courseName: response.data.CourseName,
-                    hole1par: response.data.Hole1Par
+                    roundName: 'First Game',
+                    hole1par: response.data.Hole1Par, 
+                    hole2par: response.data.Hole2Par,
+                    hole3par: response.data.Hole3Par,
+                    hole4par: response.data.Hole4Par,
+                    hole5par: response.data.Hole5Par,
+                    hole6par: response.data.Hole6Par,
+                    hole7par: response.data.Hole7Par,
+                    hole8par: response.data.Hole8Par,
+                    hole9par: response.data.Hole9Par,
+                    hole10par: response.data.Hole10Par,
+                    hole11par: response.data.Hole11Par,
+                    hole12par: response.data.Hole12Par,
+                    hole13par: response.data.Hole13Par,
+                    hole14par: response.data.Hole14Par,
+                    hole15par: response.data.Hole15Par,
+                    hole16par: response.data.Hole16Par,
+                    hole17par: response.data.Hole17Par,
+                    hole18par: response.data.Hole18Par
                 });
             });
     }
 
     handleChange(event: any) {
+        event.preventDefault();
+        const target = event.target;
+        const value = target.value;
+        const name = target.name;        
         this.setState({
-            hole1par: event.target.hole1.value,
-            hole2par: event.target.hole2.value,
-            hole3par: event.target.hole3.value,
-            hole4par: event.target.hole4.value,
-            hole5par: event.target.hole5.value,
-            hole6par: event.target.hole6.value,
-            hole7par: event.target.hole7.value,
-            hole8par: event.target.hole8.value,
-            hole9par: event.target.hole9.value,
-            hole10par: event.target.hole10.value,
-            hole11par: event.target.hole11.value,
-            hole12par: event.target.hole12.value,
-            hole13par: event.target.hole13.value,
-            hole14par: event.target.hole14.value,
-            hole15par: event.target.hole15.value,
-            hole16par: event.target.hole16.value,
-            hole17par: event.target.hole17.value,
-            hole18par: event.target.hole18.value
+            [name]: value
         });
+        axios.put('http://localhost:51434/api/rounds/addhole', this.state);
     }
 
     render() {
@@ -118,37 +126,28 @@ export default class ViewCourseSet extends React.Component<{}, CourseSetState> {
                 <div className="row">
                     <p>Please enter course information:</p>
                 </div>
-                <div className="row">
-                    <form>
-                        <div className="col-lg-2">Hole 1 Par: <input name="hole1" type="number" onChange={this.handleChange} /></div>
-                        <div className="col-lg-2">Hole 2 Par: <input name="hole2" type="number" onChange={this.handleChange} /></div>
-                        <div className="col-lg-2">Hole 3 Par: <input name="hole3" type="number" onChange={this.handleChange} /></div>
-                        <div className="col-lg-2">Hole 4 Par: <input name="hole4" type="number" onChange={this.handleChange} /></div>
-                        <div className="col-lg-2">Hole 5 Par: <input name="hole5" type="number" onChange={this.handleChange} /></div>
-                        <div className="col-lg-2">Hole 6 Par: <input name="hole6" type="number" onChange={this.handleChange} /></div>
-                    </form>
-                </div>
-                <div className="row">
-                    <form>
-                        <div className="col-lg-2">Hole 7 Par: <input name="hole7" type="number" onChange={this.handleChange} /></div>
-                        <div className="col-lg-2">Hole 8 Par: <input name="hole8" type="number" onChange={this.handleChange} /></div>
-                        <div className="col-lg-2">Hole 9 Par: <input name="hole9" type="number" onChange={this.handleChange} /></div>
-                        <div className="col-lg-2">Hole 10 Par: <input name="hole10" type="number" onChange={this.handleChange} /></div>
-                        <div className="col-lg-2">Hole 11 Par: <input name="hole11" type="number" onChange={this.handleChange} /></div>
-                        <div className="col-lg-2">Hole 12 Par: <input name="hole12" type="number" onChange={this.handleChange} /></div>
-                    </form>
-                </div>
-                <div className="row">
-                    <form>
-                        <div className="col-lg-2">Hole 13 Par: <input name="hole13" type="number" onChange={this.handleChange} /></div>
-                        <div className="col-lg-2">Hole 14 Par: <input name="hole14" type="number" onChange={this.handleChange} /></div>
-                        <div className="col-lg-2">Hole 15 Par: <input name="hole15" type="number" onChange={this.handleChange} /></div>
-                        <div className="col-lg-2">Hole 16 Par: <input name="hole16" type="number" onChange={this.handleChange} /></div>
-                        <div className="col-lg-2">Hole 17 Par: <input name="hole17" type="number" onChange={this.handleChange} /></div>
-                        <div className="col-lg-2">Hole 18 Par: <input name="hole18" type="number" onChange={this.handleChange} /></div>
-                    </form>
-                </div>            
-            </div>                    
+                <form>
+                    <div className="col-lg-2">Hole 1 Par: <input name="hole1par" type="number" /></div>
+                    <div className="col-lg-2">Hole 2 Par: <input name="hole2par" type="number" /></div>
+                    <div className="col-lg-2">Hole 3 Par: <input name="hole3par" type="number" /></div>
+                    <div className="col-lg-2">Hole 4 Par: <input name="hole4par" type="number" /></div>
+                    <div className="col-lg-2">Hole 5 Par: <input name="hole5par" type="number" /></div>
+                    <div className="col-lg-2">Hole 6 Par: <input name="hole6par" type="number" /></div>
+                    <div className="col-lg-2">Hole 7 Par: <input name="hole7par" type="number" /></div>
+                    <div className="col-lg-2">Hole 8 Par: <input name="hole8par" type="number" /></div>
+                    <div className="col-lg-2">Hole 9 Par: <input name="hole9par" type="number" /></div>
+                    <div className="col-lg-2">Hole 10 Par: <input name="hole10par" type="number" /></div>
+                    <div className="col-lg-2">Hole 11 Par: <input name="hole11par" type="number" /></div>
+                    <div className="col-lg-2">Hole 12 Par: <input name="hole12par" type="number" /></div>
+                    <div className="col-lg-2">Hole 13 Par: <input name="hole13par" type="number" /></div>
+                    <div className="col-lg-2">Hole 14 Par: <input name="hole14par" type="number" /></div>
+                    <div className="col-lg-2">Hole 15 Par: <input name="hole15par" type="number" /></div>
+                    <div className="col-lg-2">Hole 16 Par: <input name="hole16par" type="number" /></div>
+                    <div className="col-lg-2">Hole 17 Par: <input name="hole17par" type="number" /></div>
+                    <div className="col-lg-2">Hole 18 Par: <input name="hole18par" type="number" /></div>
+                    <button className="btn btn-primary">Submit</button>
+                </form>
+            </div>
         );
     }
 }

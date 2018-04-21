@@ -61,6 +61,17 @@ I *REALLY* enjoy using TypeScript with React!!!
 
 ## Notes from the Developer
 
+*4/20/2018*
+You're gonna laugh at me.  I trashed the TypeScript app.  lol.  <br/>
+
+The decision is only modestly as pathetic as it sounds.  With work and my commute, I don't have a lot of time to devote to this, so I decided to discard TS for now for the sake of using the limited time judiciously.  
+
+While this project was originally intended to reinforce technologies I use at work, I've decided that I want it to do that, but also to be something, as an app, that I can see and use as quickly as possible.   And then refactor and expand from there.  
+
+I'm still sufficiently at the learning phase with TypeScript that it slows me down a bit. Which is annoying, because I imagine as I can apply it better, it will actually increase my coding efficiency. Plus, the non sytactical things, like external libraries not always importing easilly (for me, at least), really delay me with TypeScript. 
+  
+
+*4/14/2018*
 With a fulltime job and a long commute, I am not able to dedicate as much time to this project as I would wish.  But I'll try to get to it at least every weekend, and hopefully during some weeknights. <br/>
 
 I'm also discovering that I had to moderate some of the TypeScript Linter's settings.  It was so stringent that it made development super cumbersome.  Though, I don't think any of the changes I made to the linter will lessen the integrity of TypeScript's value. <br/>
@@ -70,6 +81,12 @@ One issue that I encountered when working with Redux with TypeScript (separate f
 I'm not sure if that same issue will be apparent when using TypeScript with Redux connected to the React app.  But, in any case, I'm not using Redux in **GolfCard** yet so, we'll cross that bridge when we arrive to it! <br/>
 
 ## Timeline
+
+**Day Six (April 20, 2018)**
+
++ Deleted TypeScript app
++ Used Create React App to scaffold a react app
+* Set up basic React-Router-Dom routing 
 
 **Day Five (April 16, 2018)**
 
@@ -119,6 +136,12 @@ Email: sbogucki@mail.usf.edu
 
 
 ## Screenshots
+
++ Day Five (April 20, 2018):
+
+*Not Create(NotTypeScript)ReactApp.  Basic routing:*
+
+![RecordIt](http://g.recordit.co/trb5RpFrNc.gif)
 
 + Day Four (April 15, 2018):
 

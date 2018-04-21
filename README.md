@@ -87,6 +87,7 @@ I'm not sure if that same issue will be apparent when using TypeScript with Redu
 + Deleted TypeScript app
 + Used Create React App to scaffold a react app
 * Set up basic React-Router-Dom routing 
++ Created initial components: NewRound and SavedRound
 
 **Day Five (April 16, 2018)**
 

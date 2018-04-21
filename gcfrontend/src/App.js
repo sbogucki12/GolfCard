@@ -31,30 +31,32 @@
 //}
 
 //export default App;
-import React from 'react'
+import React from 'react';
 import {
-  BrowserRouter as Router,
-  Route,
-  Link
-} from 'react-router-dom'
+    BrowserRouter as Router,
+    Route,
+    Link
+} from 'react-router-dom';
+import NewRound from './components/newRound';
+import SavedRound from './components/savedRound';
 
 const Home = () => (
-  <div>
-    <h2>Home</h2>
-  </div>
-)
-
-const NewRound = () => (
     <div>
-        <h1>New Round</h1>
+        <h2>Home</h2>
     </div>
 )
 
-const SavedRound = () => (
-    <div>
-        <h1>Saved Round</h1>
-    </div>
-)
+//const NewRound = () => (
+//    <div>
+//        <h1>New Round</h1>
+//    </div>
+//)
+
+//const SavedRound = () => (
+//    <div>
+//        <h1>Saved Round</h1>
+//    </div>
+//)
 
 //const Topic = ({ match }) => (
 //  <div>

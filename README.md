@@ -139,7 +139,7 @@ Email: sbogucki@mail.usf.edu
 
 + Day Five (April 20, 2018):
 
-*Not Create(NotTypeScript)ReactApp.  Basic routing:*
+*New Create(NotTypeScript)ReactApp.  Basic routing:*
 
 ![RecordIt](http://g.recordit.co/trb5RpFrNc.gif)
 

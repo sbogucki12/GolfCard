@@ -82,6 +82,10 @@ I'm not sure if that same issue will be apparent when using TypeScript with Redu
 
 ## Timeline
 
+**Day Seven (April 22, 2018)**
+
++ Added more components / views (basically, what exists now isn't what I intend the app to be, but a functional wireframe for me to build upon)
+
 **Day Six (April 20, 2018)**
 
 + Deleted TypeScript app
@@ -137,6 +141,12 @@ Email: sbogucki@mail.usf.edu
 
 
 ## Screenshots
+
++ Day Seven (April 22, 2018):
+
+*The "Functional Wireframe":*
+
+![RecordIt](http://g.recordit.co/h4ie7XOeMB.gif)
 
 + Day Five (April 20, 2018):
 

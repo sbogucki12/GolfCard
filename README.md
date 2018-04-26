@@ -82,6 +82,11 @@ I'm not sure if that same issue will be apparent when using TypeScript with Redu
 
 ## Timeline
 
+**Day Eight (April 25, 2018)**
+
++ Added an action in the controller to save new RoundNames (which will be able to use to search by)
++ Added some styling to the app
+
 **Day Seven (April 22, 2018)**
 
 + Added more components / views (basically, what exists now isn't what I intend the app to be, but a functional wireframe for me to build upon)
@@ -141,6 +146,14 @@ Email: sbogucki@mail.usf.edu
 
 
 ## Screenshots
+
++ Day Eight (April 25, 2018):
+
+*Postman - success! 200OK:*
+
+![Imgur](https://i.imgur.com/AHudZFD.jpg)
+
+
 
 + Day Seven (April 22, 2018):
 

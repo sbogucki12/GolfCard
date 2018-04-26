@@ -99,6 +99,32 @@ namespace GolfCard.Api
             _context.SaveChanges();
             return Ok("Info for Hole Submitted"); 
         }
-        
+
+        // GET Current Golf Round
+        [HttpPost]
+        [Route("api/rounds/{roundName}")]
+        [EnableCors(origins: "http://localhost:3000", headers: "*", methods: "*")]
+        public string AddCurrentRound(string roundName)
+        {
+           
+
+            try
+            {
+                GolfRound newRound = new GolfRound
+                {
+                    RoundName = roundName
+                };
+                _context.GolfRounds.Add(newRound);
+                _context.SaveChanges();
+                string roundNameToReturn = _context.GolfRounds.FirstOrDefault(r => r.RoundName == roundName).RoundName.ToString();
+                return roundNameToReturn;
+            }
+            catch
+            {
+                throw new Exception("Problem with controller");
+            }
+                        
+        }
+
     }
 }

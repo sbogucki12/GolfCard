@@ -102,11 +102,10 @@ namespace GolfCard.Api
 
         // GET Current Golf Round
         [HttpPost]
-        [Route("api/rounds/{roundName}")]
+        [Route("api/rounds")]
         [EnableCors(origins: "http://localhost:3000", headers: "*", methods: "*")]
-        public string AddCurrentRound(string roundName)
-        {
-           
+        public string AddCurrentRound([FromBody]string roundName)
+        {           
 
             try
             {

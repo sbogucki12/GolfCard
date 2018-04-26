@@ -86,6 +86,7 @@ I'm not sure if that same issue will be apparent when using TypeScript with Redu
 
 + Added an action in the controller to save new RoundNames (which will be able to use to search by)
 + Added some styling to the app
++ Added a modal component that will later be used for login
 
 **Day Seven (April 22, 2018)**
 
@@ -132,11 +133,9 @@ I'm not sure if that same issue will be apparent when using TypeScript with Redu
 
 - **Steve Bogucki**
 
-~~ISO FTE dev position in the Los Angeles area. Would consider relocation, but only to Minneapolis (weird, I know, but I grew up in the area).~~  
+ISO FTE dev position in the Los Angeles area. 
 
-My strength is C# fundamentals, .NET MVC and Web API, including all related technology: Entity Framework, SQL Server, LINQ etc.  I've deployed apps to Azure, Heroku, and AWS with Angular and AngularJS front-ends, but I intend to relearn vanilla JavaScript from the ground-up, just as I have C#.  
-
-I've only recently been digging into React and TypeScript and enjoy them individually but LOVE them together.  Still making sense of Redux :) 
+I like react.  I'm functional with .NET so far as Web API, Entity Framework, and LINQ go.  Working knowledge of MVC (Razor). I've had exposure to Azure, including Cosmos, DocumentDB, Blob Stoarge, and (a little) redis.  
 
 Please check out my LinkedIn: 
 
@@ -148,6 +147,11 @@ Email: sbogucki@mail.usf.edu
 ## Screenshots
 
 + Day Eight (April 25, 2018):
+
+*Sometimes when I'm inspired, but directionless, I add components for future use. As in this case, with a login modal:*
+
+![RecordIt](http://g.recordit.co/NthQ0qDFAD.gif)
+
 
 *Postman - success! 200OK:*
 

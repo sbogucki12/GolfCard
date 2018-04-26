@@ -6,6 +6,8 @@ import {
     Link
 } from 'react-router-dom';
 import AddRoundData from './addRoundData';
+import AddRoundName from './addRoundName';
+import LoginModal from './loginModal';
 
 export default class NewRound extends Component {
     constructor(props, state) {
@@ -25,12 +27,19 @@ export default class NewRound extends Component {
 
     render() {
         return (
-            <Router>
-                <div>
-                    {this.state.isRoundNamed ? <div> <p>You are playing ROUNDNAME</p><Link to="/addrounddata"><button className="btn btn-primary">Click to add par info for Round</button></Link></div> : <div><h2>Please give your round a name:</h2><h4><i>If you leave this round, you can return to it using this name.</i></h4><p><input /><button className="btn btn-primary" onClick={() => this.onSubmit()}>Save Name</button></p></div>}
-                    <Route path="/addrounddata" render={(props) => <AddRoundData {...props} isHolesSelected={false} />} />
-                </div>
-            </Router>
+            <div>
+                <LoginModal />
+                <Router>
+                    <div>
+                        {this.state.isRoundNamed ? <div> <p>You are playing ROUNDNAME</p><Link to="/addrounddata"><button className="btn btn-primary">Click to add par info for Round</button></Link></div>
+                            :
+                            <div>
+                                <AddRoundName />
+                            </div>}
+                        <Route path="/addrounddata" render={(props) => <AddRoundData {...props} isHolesSelected={false} />} />
+                    </div>
+                </Router>
+            </div>
         )
     }
 }

@@ -67,6 +67,7 @@ I added ASP.NET Identity to the project.  Created the models in the code base an
 <br/>
 
 *4/20/2018*
+
 You're gonna laugh at me.  I trashed the TypeScript app.  lol.  <br/>
 
 The decision is only modestly as pathetic as it sounds.  With work and my commute, I don't have a lot of time to devote to this, so I decided to discard TS for now for the sake of using the limited time judiciously.  <br/>
@@ -77,6 +78,7 @@ I'm still sufficiently at the learning phase with TypeScript that it slows me do
   
 
 *4/14/2018*
+
 With a fulltime job and a long commute, I am not able to dedicate as much time to this project as I would wish.  But I'll try to get to it at least every weekend, and hopefully during some weeknights. <br/>
 
 I'm also discovering that I had to moderate some of the TypeScript Linter's settings.  It was so stringent that it made development super cumbersome.  Though, I don't think any of the changes I made to the linter will lessen the integrity of TypeScript's value. <br/>
@@ -158,6 +160,11 @@ Email: sbogucki@mail.usf.edu
 ## Screenshots
 
 + Day Ten (April 29, 2018): 
+
+*Tested the Identity db*: 
+
+[Imgur](https://i.imgur.com/MoGbUcf.jpg)
+
 
 *Added views to support .NET Identity, tho I'm unsure if I'll actually use these views, TBH:*
 

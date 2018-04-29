@@ -61,14 +61,19 @@ I *REALLY* enjoy using TypeScript with React!!!
 
 ## Notes from the Developer
 
+*4/29/2018* 
+
+I added ASP.NET Identity to the project.  Created the models in the code base and used Entity Framework to make SQL Server tables to support Users and Roles.  Today, I built all of the cshtml (Razor) views to support Identity (login, registration, lost password, etc).  Though, I'm not certain I will actually use these cshtml views in the app.  But having them in place for some reason helps me make sense of things.  Eventually, I'll replace the cshtml views with client-side views in the React app that perform the same roles (login modals, lost password alert, etc).  For the cshtml views, I just stole the code from my existing Spa: ASMR project.  
+<br/>
+
 *4/20/2018*
 You're gonna laugh at me.  I trashed the TypeScript app.  lol.  <br/>
 
-The decision is only modestly as pathetic as it sounds.  With work and my commute, I don't have a lot of time to devote to this, so I decided to discard TS for now for the sake of using the limited time judiciously.  
+The decision is only modestly as pathetic as it sounds.  With work and my commute, I don't have a lot of time to devote to this, so I decided to discard TS for now for the sake of using the limited time judiciously.  <br/>
 
-While this project was originally intended to reinforce technologies I use at work, I've decided that I want it to do that, but also to be something, as an app, that I can see and use as quickly as possible.   And then refactor and expand from there.  
+While this project was originally intended to reinforce technologies I use at work, I've decided that I want it to do that, but also to be something, as an app, that I can see and use as quickly as possible.   And then refactor and expand from there.  <br/>
 
-I'm still sufficiently at the learning phase with TypeScript that it slows me down a bit. Which is annoying, because I imagine as I can apply it better, it will actually increase my coding efficiency. Plus, the non sytactical things, like external libraries not always importing easilly (for me, at least), really delay me with TypeScript. 
+I'm still sufficiently at the learning phase with TypeScript that it slows me down a bit. Which is annoying, because I imagine as I can apply it better, it will actually increase my coding efficiency. Plus, the non sytactical things, like external libraries not always importing easilly (for me, at least), really delay me with TypeScript. <br/>
   
 
 *4/14/2018*
@@ -81,6 +86,9 @@ One issue that I encountered when working with Redux with TypeScript (separate f
 I'm not sure if that same issue will be apparent when using TypeScript with Redux connected to the React app.  But, in any case, I'm not using Redux in **GolfCard** yet so, we'll cross that bridge when we arrive to it! <br/>
 
 ## Timeline
+
+**Day Ten (April 29, 2018)**
++ Added Identity views (login, forgot password, etc); stole the code from my Spa: ASMR project
 
 **Day Nine (April 28, 2018)**
 + Added ASP.NET Identity to the .NET project, created Identity tables in SQL Server 
@@ -148,6 +156,13 @@ Email: sbogucki@mail.usf.edu
 
 
 ## Screenshots
+
++ Day Ten (April 29, 2018): 
+
+*Added views to support .NET Identity, tho I'm unsure if I'll actually use these views, TBH:*
+
+![Imgur](https://i.imgur.com/LIlUXS4.jpg)
+
 
 + Day Nine (April 28, 2018):
 

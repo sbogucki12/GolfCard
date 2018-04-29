@@ -74,3 +74,4 @@ D:\sbogu\Documents\Repos\Visual Studio 2017\GolfCardBackEnd\GolfCard\bin\Microso
 D:\sbogu\Documents\Repos\Visual Studio 2017\GolfCardBackEnd\GolfCard\bin\Microsoft.Owin.Security.xml
 D:\sbogu\Documents\Repos\Visual Studio 2017\GolfCardBackEnd\GolfCard\bin\Microsoft.Owin.Security.Cookies.xml
 D:\sbogu\Documents\Repos\Visual Studio 2017\GolfCardBackEnd\GolfCard\bin\Microsoft.Owin.Security.OAuth.xml
+D:\sbogu\Documents\Repos\Visual Studio 2017\GolfCardBackEnd\GolfCard\obj\Debug\GolfCard.Migrations.syncUpdates.resources

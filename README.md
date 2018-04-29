@@ -30,7 +30,7 @@ This app, **GolfCard**, won't be quite so ambitious.  Its technology stack will 
 + NET MVC (home View will be root for the React App)
 + React
 + Redux
-+ TypeScript
++ ASP.NET Identity
 
 I *REALLY* enjoy using TypeScript with React!!! 
 
@@ -81,6 +81,9 @@ One issue that I encountered when working with Redux with TypeScript (separate f
 I'm not sure if that same issue will be apparent when using TypeScript with Redux connected to the React app.  But, in any case, I'm not using Redux in **GolfCard** yet so, we'll cross that bridge when we arrive to it! <br/>
 
 ## Timeline
+
+**Day Nine (April 28, 2018)**
++ Added ASP.NET Identity to the .NET project, created Identity tables in SQL Server 
 
 **Day Eight (April 25, 2018)**
 
@@ -145,6 +148,14 @@ Email: sbogucki@mail.usf.edu
 
 
 ## Screenshots
+
++ Day Nine (April 28, 2018):
+
+*Creating the ASP.NET Identity tables in SQL Server:*
+
+![Imgur](https://i.imgur.com/4ZNGDcT.jpg)
+
+
 
 + Day Eight (April 25, 2018):
 

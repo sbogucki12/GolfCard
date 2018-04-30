@@ -11,23 +11,52 @@ using Microsoft.Owin.Security;
 using GolfCard.Models;
 using GolfCard.App_Start;
 using GolfCard.ViewModels;
+using System.Collections.Generic;
+using System.IdentityModel.Tokens.Jwt;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
+using System.Web.SessionState;
+using Newtonsoft.Json;
 
 namespace AuthenticationCode.Controllers
 {
+    
     [Authorize]
     public class AccountController : Controller
     {
         private ApplicationSignInManager _signInManager;
         private AppUserManager _userManager;
+        private GolfCardDbContext _golfCardDbContext;
 
-        public AccountController()
-        {
-        }
-
-        public AccountController(AppUserManager userManager, ApplicationSignInManager signInManager)
+       
+        public AccountController(AppUserManager userManager,
+            ApplicationSignInManager signInManager,
+            GolfCardDbContext golfCardDbContext)
         {
             _userManager = userManager;
             _signInManager = signInManager;
+            _golfCardDbContext = golfCardDbContext;
+
+        }
+
+        public AccountController()
+        {
+
+        }
+
+        [HttpGet]
+        [AllowAnonymous]
+        [Route("account/GetTestUser")]
+        public string GetTestUser()
+        {
+            var result = new User();
+            var user = (User)AppUserManager.FindByEmail("whiskey_boarder@outlook.com");
+            //var user = _golfCardDbContext.Users.FirstOrDefault(u => u.Email == "whiskey_boarder@outlook.com");
+            result.Email = user.Email.ToString();
+            result.UserName = user.UserName.ToString();
+            string json = JsonConvert.SerializeObject(result, Formatting.Indented);
+
+            return json; 
         }
 
         public ApplicationSignInManager SignInManager
@@ -93,9 +122,35 @@ namespace AuthenticationCode.Controllers
                     ModelState.AddModelError("", "Invalid login attempt.");
                     return View(model);
             }
-    }
+        }
 
+        //[HttpGet]
+        //[AllowAnonymous]
+        //public JsonResult GetJWTTest()
+        //{
+        //    var tokenHandler = new JwtSecurityTokenHandler();
+        //    var symmetricKey = secretKey.GetBytes();
+        //    var now = DateTime.UtcNow;
 
+        //    var tokenDescriptor = new SecurityTokenDescriptor
+        //    {
+        //        Subject = new ClaimsIdentity(
+        //            new[]{
+        //    new Claim(JwtClaimKeys.Audience, Current.AppName),
+        //    new Claim(JwtClaimKeys.Subject, userLoginRequest.UserName),
+        //    new Claim(JwtClaimKeys.Roles, GetRoles(userLoginRequest))
+        //            }),
+        //        TokenIssuerName = "My Company",
+        //        Lifetime = new Lifetime(now, now.AddMinutes(tokenLifetimeInMinutes)),
+        //        SigningCredentials = new SigningCredentials(
+        //            new InMemorySymmetricSecurityKey(symmetricKey),
+        //            "http://www.w3.org/2001/04/xmldsig-more#hmac-sha256",
+        //            "http://www.w3.org/2001/04/xmlenc#sha256")
+        //    };
+
+        //    var token = tokenHandler.CreateToken(tokenDescriptor);
+        //    return tokenHandler.WriteToken(token);
+        //}
 
         //GET: /Account/VerifyCode
         [AllowAnonymous]
@@ -153,6 +208,16 @@ namespace AuthenticationCode.Controllers
         public ActionResult Register()
         {
             return View();
+        }
+
+        [HttpGet]
+        [AllowAnonymous]
+        public String GetUserInfo()
+        {
+            String result = AppUserManager.FindByEmail("whiskey_boarder@outlook.com").Email;
+
+            return result;
+
         }
 
         //

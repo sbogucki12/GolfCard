@@ -75,3 +75,12 @@ D:\sbogu\Documents\Repos\Visual Studio 2017\GolfCardBackEnd\GolfCard\bin\Microso
 D:\sbogu\Documents\Repos\Visual Studio 2017\GolfCardBackEnd\GolfCard\bin\Microsoft.Owin.Security.Cookies.xml
 D:\sbogu\Documents\Repos\Visual Studio 2017\GolfCardBackEnd\GolfCard\bin\Microsoft.Owin.Security.OAuth.xml
 D:\sbogu\Documents\Repos\Visual Studio 2017\GolfCardBackEnd\GolfCard\obj\Debug\GolfCard.Migrations.syncUpdates.resources
+D:\sbogu\Documents\Repos\Visual Studio 2017\GolfCardBackEnd\GolfCard\bin\Microsoft.IdentityModel.Logging.dll
+D:\sbogu\Documents\Repos\Visual Studio 2017\GolfCardBackEnd\GolfCard\bin\Microsoft.IdentityModel.Tokens.dll
+D:\sbogu\Documents\Repos\Visual Studio 2017\GolfCardBackEnd\GolfCard\bin\System.IdentityModel.Tokens.Jwt.dll
+D:\sbogu\Documents\Repos\Visual Studio 2017\GolfCardBackEnd\GolfCard\bin\Microsoft.IdentityModel.Logging.pdb
+D:\sbogu\Documents\Repos\Visual Studio 2017\GolfCardBackEnd\GolfCard\bin\Microsoft.IdentityModel.Logging.xml
+D:\sbogu\Documents\Repos\Visual Studio 2017\GolfCardBackEnd\GolfCard\bin\Microsoft.IdentityModel.Tokens.pdb
+D:\sbogu\Documents\Repos\Visual Studio 2017\GolfCardBackEnd\GolfCard\bin\Microsoft.IdentityModel.Tokens.xml
+D:\sbogu\Documents\Repos\Visual Studio 2017\GolfCardBackEnd\GolfCard\bin\System.IdentityModel.Tokens.Jwt.pdb
+D:\sbogu\Documents\Repos\Visual Studio 2017\GolfCardBackEnd\GolfCard\bin\System.IdentityModel.Tokens.Jwt.xml

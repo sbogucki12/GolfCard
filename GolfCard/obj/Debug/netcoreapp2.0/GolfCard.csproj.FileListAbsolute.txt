@@ -1,0 +1,12 @@
+D:\sbogu\Documents\Repos\Visual Studio 2017\GolfCardBackEnd\GolfCard\bin\Debug\netcoreapp2.0\GolfCard.deps.json
+D:\sbogu\Documents\Repos\Visual Studio 2017\GolfCardBackEnd\GolfCard\bin\Debug\netcoreapp2.0\GolfCard.runtimeconfig.json
+D:\sbogu\Documents\Repos\Visual Studio 2017\GolfCardBackEnd\GolfCard\bin\Debug\netcoreapp2.0\GolfCard.runtimeconfig.dev.json
+D:\sbogu\Documents\Repos\Visual Studio 2017\GolfCardBackEnd\GolfCard\bin\Debug\netcoreapp2.0\GolfCard.dll
+D:\sbogu\Documents\Repos\Visual Studio 2017\GolfCardBackEnd\GolfCard\bin\Debug\netcoreapp2.0\GolfCard.pdb
+D:\sbogu\Documents\Repos\Visual Studio 2017\GolfCardBackEnd\GolfCard\obj\Debug\netcoreapp2.0\GolfCard.csprojResolveAssemblyReference.cache
+D:\sbogu\Documents\Repos\Visual Studio 2017\GolfCardBackEnd\GolfCard\obj\Debug\netcoreapp2.0\GolfCard.csproj.CoreCompileInputs.cache
+D:\sbogu\Documents\Repos\Visual Studio 2017\GolfCardBackEnd\GolfCard\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+D:\sbogu\Documents\Repos\Visual Studio 2017\GolfCardBackEnd\GolfCard\obj\Debug\netcoreapp2.0\GolfCard.AssemblyInfoInputs.cache
+D:\sbogu\Documents\Repos\Visual Studio 2017\GolfCardBackEnd\GolfCard\obj\Debug\netcoreapp2.0\GolfCard.AssemblyInfo.cs
+D:\sbogu\Documents\Repos\Visual Studio 2017\GolfCardBackEnd\GolfCard\obj\Debug\netcoreapp2.0\GolfCard.dll
+D:\sbogu\Documents\Repos\Visual Studio 2017\GolfCardBackEnd\GolfCard\obj\Debug\netcoreapp2.0\GolfCard.pdb

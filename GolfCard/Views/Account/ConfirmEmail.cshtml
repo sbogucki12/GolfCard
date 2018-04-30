@@ -1,20 +1,10 @@
-﻿
-@{
-    Layout = null;
+﻿@{
+    ViewData["Title"] = "Confirm email";
 }
 
-<!DOCTYPE html>
-
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>ConfirmEmail</title>
-</head>
-<body>
-    <div>
-        <p>
-            Thank you for confirming your email. Please @Html.ActionLink("Click here to Log in", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })
-        </p>
-    </div>
-</body>
-</html>
+<h2>@ViewData["Title"]</h2>
+<div>
+    <p>
+        Thank you for confirming your email.
+    </p>
+</div>

@@ -91,6 +91,9 @@ I'm not sure if that same issue will be apparent when using TypeScript with Redu
 
 **Day Ten (April 29, 2018)**
 + Added Identity views (login, forgot password, etc); stole the code from my Spa: ASMR project
++ Played arround with JWT tokens in the Account Controller
++ Played arround with the AppUserManager in the Account Controller
++ Updated the User and GolfRound classes to create a relationship; built the same relationship in the SQL Server db via Entity Framework
 
 **Day Nine (April 28, 2018)**
 + Added ASP.NET Identity to the .NET project, created Identity tables in SQL Server 
@@ -161,9 +164,14 @@ Email: sbogucki@mail.usf.edu
 
 + Day Ten (April 29, 2018): 
 
+*Updating the User and GolfRound tables to create a relationship, via Entity Framework:*
+
+![Imgur](https://i.imgur.com/VcRjsWS.jpg)
+
+
 *Tested the Identity db*: 
 
-[Imgur](https://i.imgur.com/MoGbUcf.jpg)
+![Imgur](https://i.imgur.com/MoGbUcf.jpg)
 
 
 *Added views to support .NET Identity, tho I'm unsure if I'll actually use these views, TBH:*

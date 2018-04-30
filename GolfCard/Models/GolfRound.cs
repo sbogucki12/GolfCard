@@ -9,7 +9,7 @@ namespace GolfCard.Models
     public class GolfRound
     {
         public int Id { get; set; }
-
+        
         [MaxLength(125)]
         public string GolferName { get; set; }
 
@@ -141,5 +141,9 @@ namespace GolfCard.Models
 
         [Range(0, 300)]
         public int? RoundCalculatedScore { get; set; }
+
+        //Foreign key for User
+        public int UserId { get; set; }
+        public User User { get; set; }
     }
 }

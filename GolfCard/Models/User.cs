@@ -17,8 +17,8 @@ namespace GolfCard.Models
             // Add custom user claims here
             return userIdentity;
         }
-        
-        //add your custom properties which have not included in IdentityUser before
+
+        public ICollection<GolfRound> Golfrounds { get; set; }
         public string MyExtraProperty { get; set; }
     }
 }

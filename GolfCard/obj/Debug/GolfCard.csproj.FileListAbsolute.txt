@@ -84,3 +84,4 @@ D:\sbogu\Documents\Repos\Visual Studio 2017\GolfCardBackEnd\GolfCard\bin\Microso
 D:\sbogu\Documents\Repos\Visual Studio 2017\GolfCardBackEnd\GolfCard\bin\Microsoft.IdentityModel.Tokens.xml
 D:\sbogu\Documents\Repos\Visual Studio 2017\GolfCardBackEnd\GolfCard\bin\System.IdentityModel.Tokens.Jwt.pdb
 D:\sbogu\Documents\Repos\Visual Studio 2017\GolfCardBackEnd\GolfCard\bin\System.IdentityModel.Tokens.Jwt.xml
+D:\sbogu\Documents\Repos\Visual Studio 2017\GolfCardBackEnd\GolfCard\obj\Debug\GolfCard.Migrations.createdGolfRoundUserRelationship.resources

@@ -227,6 +227,10 @@
     <Compile Include="Migrations\201804290001447_syncUpdates.Designer.cs">
       <DependentUpon>201804290001447_syncUpdates.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201804300214262_createdGolfRoundUserRelationship.cs" />
+    <Compile Include="Migrations\201804300214262_createdGolfRoundUserRelationship.Designer.cs">
+      <DependentUpon>201804300214262_createdGolfRoundUserRelationship.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\GolfCardDbContext.cs" />
     <Compile Include="Models\GolfRound.cs" />
@@ -317,6 +321,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201804290001447_syncUpdates.resx">
       <DependentUpon>201804290001447_syncUpdates.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804300214262_createdGolfRoundUserRelationship.resx">
+      <DependentUpon>201804300214262_createdGolfRoundUserRelationship.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

@@ -61,6 +61,13 @@ I *REALLY* enjoy using TypeScript with React!!!
 
 ## Notes from the Developer
 
+*4/30/2018*
+
+It's become a recurring habit with this project, moreso than any other I've built, that I scrap entire sections and start over.  Mostly because every new feature I add brings to light how I could have better built an earlier part.  So, I'm either learning of new techniques quicker than I'm making progress on this app.  Or, the whole thing suffered from poor project planning.  A combination of the two is probably true.  <br/>
+
+In any case, I was messing with .NET Identity and JWT tokens and eventually got pretty wrapped around the axles with them and some funky DbContext issues. Sufficiently so that I decided to just rebuild the .NET portion of this project with Authentication built in from the beginning and a separate DbContext to serve their two different purposes: 1. Identity/Authentication Tables 2. All Other Tables. 
+<br/>
+
 *4/29/2018* 
 
 I added ASP.NET Identity to the project.  Created the models in the code base and used Entity Framework to make SQL Server tables to support Users and Roles.  Today, I built all of the cshtml (Razor) views to support Identity (login, registration, lost password, etc).  Though, I'm not certain I will actually use these cshtml views in the app.  But having them in place for some reason helps me make sense of things.  Eventually, I'll replace the cshtml views with client-side views in the React app that perform the same roles (login modals, lost password alert, etc).  For the cshtml views, I just stole the code from my existing Spa: ASMR project.  
@@ -88,6 +95,13 @@ One issue that I encountered when working with Redux with TypeScript (separate f
 I'm not sure if that same issue will be apparent when using TypeScript with Redux connected to the React app.  But, in any case, I'm not using Redux in **GolfCard** yet so, we'll cross that bridge when we arrive to it! <br/>
 
 ## Timeline
+
+**Day Eleven (April 30, 2018)**
+
++ Deleted previous .NET code.  *AllOfIt*
++ Added Player and GolfRound data models
++ Used Entity Framework to create two DbContexts: ApplicationDbContext (for Identity/Authentication), GolfCardDbContext (everything else)
+* Ran migrations and created SQL Server database tables
 
 **Day Ten (April 29, 2018)**
 + Added Identity views (login, forgot password, etc); stole the code from my Spa: ASMR project
@@ -161,6 +175,12 @@ Email: sbogucki@mail.usf.edu
 
 
 ## Screenshots
+
++ Day Eleven (April 30, 2018):
+
+*Deleted everything.  Serious.  Here are the two contexts, via the EF CLI:*
+
+![Imgur](https://i.imgur.com/vbz8PHg.jpg)
 
 + Day Ten (April 29, 2018): 
 

@@ -1,0 +1,11 @@
+D:\sbogu\Documents\Repos\Visual Studio 2017\GolfCardBackEnd\GolfCardBackEnd\bin\Debug\netcoreapp2.0\GolfCardBackEnd.deps.json
+D:\sbogu\Documents\Repos\Visual Studio 2017\GolfCardBackEnd\GolfCardBackEnd\bin\Debug\netcoreapp2.0\GolfCardBackEnd.runtimeconfig.json
+D:\sbogu\Documents\Repos\Visual Studio 2017\GolfCardBackEnd\GolfCardBackEnd\bin\Debug\netcoreapp2.0\GolfCardBackEnd.runtimeconfig.dev.json
+D:\sbogu\Documents\Repos\Visual Studio 2017\GolfCardBackEnd\GolfCardBackEnd\bin\Debug\netcoreapp2.0\GolfCardBackEnd.dll
+D:\sbogu\Documents\Repos\Visual Studio 2017\GolfCardBackEnd\GolfCardBackEnd\bin\Debug\netcoreapp2.0\GolfCardBackEnd.pdb
+D:\sbogu\Documents\Repos\Visual Studio 2017\GolfCardBackEnd\GolfCardBackEnd\obj\Debug\netcoreapp2.0\GolfCardBackEnd.csproj.CoreCompileInputs.cache
+D:\sbogu\Documents\Repos\Visual Studio 2017\GolfCardBackEnd\GolfCardBackEnd\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+D:\sbogu\Documents\Repos\Visual Studio 2017\GolfCardBackEnd\GolfCardBackEnd\obj\Debug\netcoreapp2.0\GolfCardBackEnd.AssemblyInfoInputs.cache
+D:\sbogu\Documents\Repos\Visual Studio 2017\GolfCardBackEnd\GolfCardBackEnd\obj\Debug\netcoreapp2.0\GolfCardBackEnd.AssemblyInfo.cs
+D:\sbogu\Documents\Repos\Visual Studio 2017\GolfCardBackEnd\GolfCardBackEnd\obj\Debug\netcoreapp2.0\GolfCardBackEnd.dll
+D:\sbogu\Documents\Repos\Visual Studio 2017\GolfCardBackEnd\GolfCardBackEnd\obj\Debug\netcoreapp2.0\GolfCardBackEnd.pdb

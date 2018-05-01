@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GolfCardBackEnd", "GolfCardBackEnd\GolfCardBackEnd.csproj", "{49FC429F-3EB4-429A-BD96-9CB8CC76A977}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{49FC429F-3EB4-429A-BD96-9CB8CC76A977}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49FC429F-3EB4-429A-BD96-9CB8CC76A977}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49FC429F-3EB4-429A-BD96-9CB8CC76A977}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49FC429F-3EB4-429A-BD96-9CB8CC76A977}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B994C4E6-43B1-4B31-A062-04181080D570}
+	EndGlobalSection
+EndGlobal
